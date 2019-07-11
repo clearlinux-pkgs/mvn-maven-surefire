@@ -12,3 +12,5 @@ d7cdaf243efb6881a0be25519cc8f70f696d7aab/surefire-providers-2.22.0.pom
 f1d370ee55822a3d4c398bafeb12468c44969965/surefire-2.22.0.pom
 8adc7b2b94e83a8df238bad8011b9be046f7aad5/maven-surefire-plugin-2.22.0.jar
 9b5fb50a4466c73f9aa9a4ca863a270d3e901b8a/maven-surefire-plugin-2.22.0.pom
+634f2f866e6e24badfad50739c38d92d50747993/maven-failsafe-plugin-2.19.1.jar
+82fae57c66f83c2b143eee04773cddc6e53f7741/maven-failsafe-plugin-2.19.1.pom
