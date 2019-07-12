@@ -4,7 +4,7 @@
 #
 Name     : mvn-maven-surefire
 Version  : 2.22.0
-Release  : 4
+Release  : 5
 URL      : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar
 Source1  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.19.1/maven-failsafe-plugin-2.19.1.jar
@@ -21,7 +21,8 @@ Source11  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-ju
 Source12  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.jar
 Source13  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.pom
 Source14  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom
-Source15  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
+Source15  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom
+Source16  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -88,8 +89,11 @@ cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/suref
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.0
 cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.0
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.19.1
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.19.1
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.0
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.0
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.0
 
 
 %files
@@ -112,4 +116,5 @@ cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/suref
 /usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.jar
 /usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.pom
 /usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom
+/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom
 /usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
