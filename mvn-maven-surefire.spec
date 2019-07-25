@@ -4,7 +4,7 @@
 #
 Name     : mvn-maven-surefire
 Version  : 2.22.0
-Release  : 8
+Release  : 9
 URL      : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar
 Source1  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-report-plugin/2.19.1/maven-surefire-report-plugin-2.19.1.jar
