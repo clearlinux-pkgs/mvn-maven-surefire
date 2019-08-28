@@ -50,3 +50,9 @@ b077c9a73aee94619c8f43bfc8d3485ee0ab62ae/maven-failsafe-plugin-2.22.1.jar
 402fd3066fd6d85ea4a1a3e7cd82a7e35037e6e8/maven-surefire-plugin-2.18.1.jar
 6d3af2c45104529951a155f2993a472f14e2a7b0/maven-surefire-plugin-2.18.1.pom
 86c69e79aa595f22b02b2bdd4e46ab34e3431375/surefire-2.18.1.pom
+9fff3ee116243c395aa42c9139499d6fe4ae7994/maven-surefire-common-2.18.1.jar
+452c143558038d24441b4ed3304ecbcc84429a93/maven-surefire-common-2.18.1.pom
+0eb85fe5a28cb9fd6bf9381dc95a45f7acab6b9c/surefire-booter-2.18.1.jar
+58fb19d6c8d4a40eca8b1561885d3ac8ba2962c2/surefire-booter-2.18.1.pom
+7838e4f65460ddde64bf818bebfade0b1c630de6/surefire-api-2.18.1.jar
+cceabe24d5b9ea4606578b6dcaf43b26d97001bd/surefire-api-2.18.1.pom
