@@ -4,7 +4,7 @@
 #
 Name     : mvn-maven-surefire
 Version  : 2.22.0
-Release  : 16
+Release  : 17
 URL      : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar
 Source1  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.jar
@@ -82,18 +82,21 @@ Source72  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-lo
 Source73  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.pom
 Source74  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.18.1/surefire-providers-2.18.1.pom
 Source75  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom
-Source76  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.12.2/surefire-2.12.2.pom
-Source77  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
-Source78  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.18.1/surefire-2.18.1.pom
-Source79  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom
-Source80  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.21.0/surefire-2.21.0.pom
-Source81  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
-Source82  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
+Source76  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.1/surefire-providers-2.22.1.pom
+Source77  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.12.2/surefire-2.12.2.pom
+Source78  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+Source79  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.18.1/surefire-2.18.1.pom
+Source80  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom
+Source81  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.21.0/surefire-2.21.0.pom
+Source82  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
+Source83  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: mvn-maven-surefire-data = %{version}-%{release}
 Requires: mvn-maven-surefire-license = %{version}-%{release}
+BuildRequires : apache-maven
+BuildRequires : buildreq-mvn
 
 %description
 No detailed description available
@@ -351,26 +354,29 @@ cp %{SOURCE74} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/suref
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.0
 cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.1
+cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.1/surefire-providers-2.22.1.pom
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.2
-cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.2/surefire-2.12.2.pom
+cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.2/surefire-2.12.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.4
-cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.18.1
-cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.18.1/surefire-2.18.1.pom
+cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.18.1/surefire-2.18.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.19.1
-cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom
+cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.21.0
-cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.21.0/surefire-2.21.0.pom
+cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.21.0/surefire-2.21.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.0
-cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
+cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.1
-cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
+cp %{SOURCE83} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
 
 
 %files
@@ -454,6 +460,7 @@ cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/suref
 /usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.pom
 /usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.18.1/surefire-providers-2.18.1.pom
 /usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom
+/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.1/surefire-providers-2.22.1.pom
 /usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.2/surefire-2.12.2.pom
 /usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
 /usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.18.1/surefire-2.18.1.pom
