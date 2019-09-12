@@ -4,94 +4,96 @@
 #
 Name     : mvn-maven-surefire
 Version  : 2.22.0
-Release  : 18
+Release  : 19
 URL      : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar
-Source1  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.jar
-Source2  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.pom
-Source3  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-report-plugin/2.19.1/maven-surefire-report-plugin-2.19.1.jar
-Source4  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-report-plugin/2.19.1/maven-surefire-report-plugin-2.19.1.pom
-Source5  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.19.1/maven-failsafe-plugin-2.19.1.jar
-Source6  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.19.1/maven-failsafe-plugin-2.19.1.pom
-Source7  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.21.0/maven-failsafe-plugin-2.21.0.jar
-Source8  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.21.0/maven-failsafe-plugin-2.21.0.pom
-Source9  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.2/maven-surefire-plugin-2.12.2.jar
-Source10  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.2/maven-surefire-plugin-2.12.2.pom
-Source11  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
-Source12  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
-Source13  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.jar
-Source14  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.pom
-Source15  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.jar
-Source16  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.pom
-Source17  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.jar
-Source18  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.pom
-Source19  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.jar
-Source20  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.pom
-Source21  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.jar
-Source22  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.pom
-Source23  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12.2/maven-surefire-common-2.12.2.jar
-Source24  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12.2/maven-surefire-common-2.12.2.pom
-Source25  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.jar
-Source26  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.pom
-Source27  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18.1/maven-surefire-common-2.18.1.jar
-Source28  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18.1/maven-surefire-common-2.18.1.pom
-Source29  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.jar
-Source30  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.pom
-Source31  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.21.0/maven-surefire-common-2.21.0.jar
-Source32  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.21.0/maven-surefire-common-2.21.0.pom
-Source33  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.pom
-Source34  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.1/maven-surefire-common-2.22.1.jar
-Source35  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.1/maven-surefire-common-2.22.1.pom
-Source36  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.12.2/surefire-api-2.12.2.jar
-Source37  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.12.2/surefire-api-2.12.2.pom
-Source38  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.jar
-Source39  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.pom
-Source40  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.jar
-Source41  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.pom
-Source42  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.jar
-Source43  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.pom
-Source44  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.21.0/surefire-api-2.21.0.jar
-Source45  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.21.0/surefire-api-2.21.0.pom
-Source46  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.jar
-Source47  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.pom
-Source48  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar
-Source49  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.pom
-Source50  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.12.2/surefire-booter-2.12.2.jar
-Source51  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.12.2/surefire-booter-2.12.2.pom
-Source52  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar
-Source53  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.pom
-Source54  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.jar
-Source55  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.pom
-Source56  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.jar
-Source57  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.pom
-Source58  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.21.0/surefire-booter-2.21.0.jar
-Source59  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.21.0/surefire-booter-2.21.0.pom
-Source60  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.jar
-Source61  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.pom
-Source62  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.jar
-Source63  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.pom
-Source64  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.jar
-Source65  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.pom
-Source66  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.0/surefire-junit4-2.22.0.jar
-Source67  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.0/surefire-junit4-2.22.0.pom
-Source68  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar
-Source69  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.pom
-Source70  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.21.0/surefire-logger-api-2.21.0.jar
-Source71  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.21.0/surefire-logger-api-2.21.0.pom
-Source72  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.jar
-Source73  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.pom
-Source74  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar
-Source75  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.pom
-Source76  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.18.1/surefire-providers-2.18.1.pom
-Source77  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom
-Source78  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.1/surefire-providers-2.22.1.pom
-Source79  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.12.2/surefire-2.12.2.pom
-Source80  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
-Source81  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.18.1/surefire-2.18.1.pom
-Source82  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom
-Source83  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.21.0/surefire-2.21.0.pom
-Source84  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
-Source85  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
+Source1  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.jar
+Source2  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.pom
+Source3  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.jar
+Source4  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.pom
+Source5  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-report-plugin/2.19.1/maven-surefire-report-plugin-2.19.1.jar
+Source6  : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-report-plugin/2.19.1/maven-surefire-report-plugin-2.19.1.pom
+Source7  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.19.1/maven-failsafe-plugin-2.19.1.jar
+Source8  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.19.1/maven-failsafe-plugin-2.19.1.pom
+Source9  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.21.0/maven-failsafe-plugin-2.21.0.jar
+Source10  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.21.0/maven-failsafe-plugin-2.21.0.pom
+Source11  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.2/maven-surefire-plugin-2.12.2.jar
+Source12  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.2/maven-surefire-plugin-2.12.2.pom
+Source13  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+Source14  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+Source15  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.jar
+Source16  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.pom
+Source17  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.jar
+Source18  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.pom
+Source19  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.jar
+Source20  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.pom
+Source21  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.jar
+Source22  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.pom
+Source23  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.jar
+Source24  : https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.pom
+Source25  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12.2/maven-surefire-common-2.12.2.jar
+Source26  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12.2/maven-surefire-common-2.12.2.pom
+Source27  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.jar
+Source28  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.pom
+Source29  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18.1/maven-surefire-common-2.18.1.jar
+Source30  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18.1/maven-surefire-common-2.18.1.pom
+Source31  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.jar
+Source32  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.pom
+Source33  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.21.0/maven-surefire-common-2.21.0.jar
+Source34  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.21.0/maven-surefire-common-2.21.0.pom
+Source35  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.pom
+Source36  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.1/maven-surefire-common-2.22.1.jar
+Source37  : https://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.22.1/maven-surefire-common-2.22.1.pom
+Source38  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.12.2/surefire-api-2.12.2.jar
+Source39  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.12.2/surefire-api-2.12.2.pom
+Source40  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.jar
+Source41  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.pom
+Source42  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.jar
+Source43  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.pom
+Source44  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.jar
+Source45  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.pom
+Source46  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.21.0/surefire-api-2.21.0.jar
+Source47  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.21.0/surefire-api-2.21.0.pom
+Source48  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.jar
+Source49  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.pom
+Source50  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar
+Source51  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.pom
+Source52  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.12.2/surefire-booter-2.12.2.jar
+Source53  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.12.2/surefire-booter-2.12.2.pom
+Source54  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar
+Source55  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.pom
+Source56  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.jar
+Source57  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.pom
+Source58  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.jar
+Source59  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.pom
+Source60  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.21.0/surefire-booter-2.21.0.jar
+Source61  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.21.0/surefire-booter-2.21.0.pom
+Source62  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.jar
+Source63  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.pom
+Source64  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.jar
+Source65  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.pom
+Source66  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.jar
+Source67  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.pom
+Source68  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.0/surefire-junit4-2.22.0.jar
+Source69  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.0/surefire-junit4-2.22.0.pom
+Source70  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar
+Source71  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.pom
+Source72  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.21.0/surefire-logger-api-2.21.0.jar
+Source73  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.21.0/surefire-logger-api-2.21.0.pom
+Source74  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.jar
+Source75  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.pom
+Source76  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar
+Source77  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.pom
+Source78  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.18.1/surefire-providers-2.18.1.pom
+Source79  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom
+Source80  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.1/surefire-providers-2.22.1.pom
+Source81  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.12.2/surefire-2.12.2.pom
+Source82  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+Source83  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.18.1/surefire-2.18.1.pom
+Source84  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom
+Source85  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.21.0/surefire-2.21.0.pom
+Source86  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
+Source87  : https://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -131,260 +133,266 @@ cp LICENSE.txt %{buildroot}/usr/share/package-licenses/mvn-maven-surefire/LICENS
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.22.0
 cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.jar
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.pom
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-report-plugin/2.19.1
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-report-plugin/2.19.1/maven-surefire-report-plugin-2.19.1.jar
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-report-plugin/2.19.1/maven-surefire-report-plugin-2.19.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-report-plugin/2.19.1
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-report-plugin/2.19.1/maven-surefire-report-plugin-2.19.1.pom
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-report-plugin/2.19.1/maven-surefire-report-plugin-2.19.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.19.1
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.19.1/maven-failsafe-plugin-2.19.1.jar
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.19.1/maven-failsafe-plugin-2.19.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.19.1
-cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.19.1/maven-failsafe-plugin-2.19.1.pom
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.19.1/maven-failsafe-plugin-2.19.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.21.0
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.21.0/maven-failsafe-plugin-2.21.0.jar
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.21.0/maven-failsafe-plugin-2.21.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.21.0
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.21.0/maven-failsafe-plugin-2.21.0.pom
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.21.0/maven-failsafe-plugin-2.21.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.2
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.2/maven-surefire-plugin-2.12.2.jar
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.2/maven-surefire-plugin-2.12.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.2
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.2/maven-surefire-plugin-2.12.2.pom
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.2/maven-surefire-plugin-2.12.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.4
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.4
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.18.1
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.jar
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.18.1
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.pom
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.jar
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.pom
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.21.0
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.jar
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.21.0
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.pom
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.21.0/maven-surefire-plugin-2.21.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.22.0
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.jar
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.22.0
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.pom
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.22.0/maven-surefire-plugin-2.22.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.22.1
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.jar
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.22.1
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.pom
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.2
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.2/maven-surefire-common-2.12.2.jar
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.2/maven-surefire-common-2.12.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.2
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.2/maven-surefire-common-2.12.2.pom
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.2/maven-surefire-common-2.12.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.4
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.jar
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.4
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.pom
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.18.1
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.18.1/maven-surefire-common-2.18.1.jar
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.18.1/maven-surefire-common-2.18.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.18.1
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.18.1/maven-surefire-common-2.18.1.pom
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.18.1/maven-surefire-common-2.18.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.jar
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.pom
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.21.0
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.21.0/maven-surefire-common-2.21.0.jar
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.21.0/maven-surefire-common-2.21.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.21.0
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.21.0/maven-surefire-common-2.21.0.pom
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.21.0/maven-surefire-common-2.21.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.22.0
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.pom
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.22.0/maven-surefire-common-2.22.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.22.1
-cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.22.1/maven-surefire-common-2.22.1.jar
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.22.1/maven-surefire-common-2.22.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.22.1
-cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.22.1/maven-surefire-common-2.22.1.pom
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.22.1/maven-surefire-common-2.22.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.2
-cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.2/surefire-api-2.12.2.jar
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.2/surefire-api-2.12.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.2
-cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.2/surefire-api-2.12.2.pom
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.2/surefire-api-2.12.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.4
-cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.jar
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.4
-cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.pom
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.18.1
-cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.jar
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.18.1
-cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.pom
+cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.18.1/surefire-api-2.18.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1
-cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.jar
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1
-cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.pom
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.21.0
-cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.21.0/surefire-api-2.21.0.jar
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.21.0/surefire-api-2.21.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.21.0
-cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.21.0/surefire-api-2.21.0.pom
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.21.0/surefire-api-2.21.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.0
-cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.jar
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.0
-cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.pom
+cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1
-cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar
+cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1
-cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.pom
+cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.2
-cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.2/surefire-booter-2.12.2.jar
+cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.2/surefire-booter-2.12.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.2
-cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.2/surefire-booter-2.12.2.pom
+cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.2/surefire-booter-2.12.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4
-cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar
+cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4
-cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.pom
+cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.18.1
-cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.jar
+cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.18.1
-cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.pom
+cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.18.1/surefire-booter-2.18.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1
-cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.jar
+cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1
-cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.pom
+cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.21.0
-cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.21.0/surefire-booter-2.21.0.jar
+cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.21.0/surefire-booter-2.21.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.21.0
-cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.21.0/surefire-booter-2.21.0.pom
+cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.21.0/surefire-booter-2.21.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.0
-cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.jar
+cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.0
-cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.pom
+cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.0/surefire-booter-2.22.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.1
-cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.jar
+cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.1
-cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.pom
+cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.18.1
-cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.jar
+cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.18.1
-cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.pom
+cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.18.1/surefire-junit4-2.18.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.0
-cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.0/surefire-junit4-2.22.0.jar
+cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.0/surefire-junit4-2.22.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.0
-cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.0/surefire-junit4-2.22.0.pom
+cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.0/surefire-junit4-2.22.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.1
-cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar
+cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.1
-cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.pom
+cp %{SOURCE71} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.21.0
-cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.21.0/surefire-logger-api-2.21.0.jar
+cp %{SOURCE72} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.21.0/surefire-logger-api-2.21.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.21.0
-cp %{SOURCE71} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.21.0/surefire-logger-api-2.21.0.pom
+cp %{SOURCE73} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.21.0/surefire-logger-api-2.21.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.0
-cp %{SOURCE72} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.jar
+cp %{SOURCE74} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.0
-cp %{SOURCE73} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.pom
+cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1
-cp %{SOURCE74} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar
+cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1
-cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.pom
+cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.18.1
-cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.18.1/surefire-providers-2.18.1.pom
+cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.18.1/surefire-providers-2.18.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.0
-cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom
+cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.1
-cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.1/surefire-providers-2.22.1.pom
+cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire-providers/2.22.1/surefire-providers-2.22.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.2
-cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.2/surefire-2.12.2.pom
+cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.2/surefire-2.12.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.4
-cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.18.1
-cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.18.1/surefire-2.18.1.pom
+cp %{SOURCE83} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.18.1/surefire-2.18.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.19.1
-cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom
+cp %{SOURCE84} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.21.0
-cp %{SOURCE83} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.21.0/surefire-2.21.0.pom
+cp %{SOURCE85} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.21.0/surefire-2.21.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.0
-cp %{SOURCE84} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
+cp %{SOURCE86} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.0/surefire-2.22.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.1
-cp %{SOURCE85} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
+cp %{SOURCE87} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
 
 
 %files
@@ -396,6 +404,8 @@ cp %{SOURCE85} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/suref
 /usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.19.1/maven-failsafe-plugin-2.19.1.pom
 /usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.21.0/maven-failsafe-plugin-2.21.0.jar
 /usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.21.0/maven-failsafe-plugin-2.21.0.pom
+/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.jar
+/usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.0/maven-failsafe-plugin-2.22.0.pom
 /usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.jar
 /usr/share/java/.m2/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.22.1/maven-failsafe-plugin-2.22.1.pom
 /usr/share/java/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.12.2/maven-surefire-plugin-2.12.2.jar
